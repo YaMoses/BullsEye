@@ -11,7 +11,7 @@ import SwiftUI
 struct BullsEyeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5)
         }
     }
 }
