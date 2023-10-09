@@ -11,6 +11,7 @@
 		824B4FD12AC45AC600C79FBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B4FD02AC45AC600C79FBF /* ContentView.swift */; };
 		824B4FD32AC45AC800C79FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824B4FD22AC45AC800C79FBF /* Assets.xcassets */; };
 		824B4FD62AC45AC800C79FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824B4FD52AC45AC800C79FBF /* Preview Assets.xcassets */; };
+		82DBD5852AD423BB00D68459 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DBD5842AD423BB00D68459 /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		824B4FD02AC45AC600C79FBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		824B4FD22AC45AC800C79FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824B4FD52AC45AC800C79FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82DBD5842AD423BB00D68459 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				824B4FCE2AC45AC600C79FBF /* BullsEyeApp.swift */,
 				824B4FD02AC45AC600C79FBF /* ContentView.swift */,
+				82DBD5842AD423BB00D68459 /* TimeCounter.swift */,
 				824B4FD22AC45AC800C79FBF /* Assets.xcassets */,
 				824B4FD42AC45AC800C79FBF /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DBD5852AD423BB00D68459 /* TimeCounter.swift in Sources */,
 				824B4FD12AC45AC600C79FBF /* ContentView.swift in Sources */,
 				824B4FCF2AC45AC600C79FBF /* BullsEyeApp.swift in Sources */,
 			);
