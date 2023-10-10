@@ -63,9 +63,10 @@ struct ContentView: View {
             }.padding()
             
             VStack {
-                ColorSlider(value: $rGuess, textColor: .red)
-                ColorSlider(value: $gGuess, textColor: .green)
-                ColorSlider(value: $bGuess, textColor: .blue)
+                ColorUISlider(color: .red, value: $rGuess)
+                ColorUISlider(color: .green, value: $gGuess)
+                ColorUISlider(color: .blue, value: $bGuess)
+
             }.padding(.horizontal)
            
             
